@@ -97,3 +97,35 @@ input[type="submit"] {
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
     border-radius: 10px;
 }
+
+@media (min-width: 75em) {
+    body {
+        background: url('./images/bg-intro-desktop.png')hsl(0, 100%, 74%);
+        background-size: cover;
+    }
+    main {
+        display: flex;
+        max-width: 1100px;
+        gap: 2rem;
+    }
+
+    .registration-section {
+        flex-basis: 50%;
+        align-self: center;
+        text-align: start;
+        gap: 2.125rem;
+    }
+
+    .Head-line {
+        text-align: start;
+        font-size: 3.125rem;
+        line-height: 3.4375rem;
+        letter-spacing: -.52px;
+    }
+
+    .signup > form {
+        padding: 2.5rem;
+    }
+
+
+}
