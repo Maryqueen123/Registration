@@ -99,6 +99,7 @@ input[type="submit"] {
     }
     .container {
         display: flex;
+        flex-direction: column;
         max-width: 1100px;
         gap: 2rem;
     }
