@@ -110,16 +110,16 @@ input[type="submit"] {
         gap: 2.125rem;
     }
 
-    
-
-    .signup > form {
-        padding: 2.5rem;
-    }
-
-    .h1 {
+     .h1 {
         text-align: start;
         font-size: 3.125rem;
         line-height: 3.4375rem;
         letter-spacing: -.52px;
     }
+
+    .signup > form {
+        padding: 2.5rem;
+    }
+
+   
 }
