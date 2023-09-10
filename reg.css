@@ -124,14 +124,15 @@ input[type="submit"] {
     }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 75em) {
     body {
         background: url('./images/bg-intro-desktop.png')hsl(0, 100%, 74%);
         background-size: cover;
     }
     .container {
         display: flex;
-        max-width: 700px;
+        flex-direction: column;
+        max-width: 900px;
         gap: 2rem;
     }
 
