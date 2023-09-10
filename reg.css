@@ -99,7 +99,7 @@ input[type="submit"] {
     }
     .container {
         display: flex;
-        max-width: 800px;
+        max-width: 1100px;
         gap: 2rem;
     }
 
@@ -110,49 +110,16 @@ input[type="submit"] {
         gap: 2.125rem;
     }
 
-     .h1 {
-        text-align: start;
-        font-size: 3.125rem;
-        line-height: 3.4375rem;
-        letter-spacing: -.52px;
-    }
+    
 
     .signup > form {
         padding: 2.5rem;
     }
 
-   
-}
-
-
-@media (min-width: 448px) {
-    body {
-        background: url('./images/bg-intro-desktop.png')hsl(0, 100%, 74%);
-        background-size: cover;
-    }
-    .container {
-        display: flex;
-        max-width: 800px;
-        gap: 2rem;
-    }
-
-    .Head-line {
-        flex-basis: 50%;
-        align-self: center;
-        text-align: start;
-        gap: 2.125rem;
-    }
-
-     .h1 {
+    .h1 {
         text-align: start;
         font-size: 3.125rem;
         line-height: 3.4375rem;
         letter-spacing: -.52px;
     }
-
-    .signup > form {
-        padding: 2.5rem;
-    }
-
-   
 }
