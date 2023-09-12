@@ -1,4 +1,5 @@
 body{
+    background-image: linear-gradient(10deg, rgba(228, 54, 54, 0.5)) url('images/img1.jpg')rgba(241, 106, 64, 0.4);
     display: flex;
     min-height: 100vh;
     line-height: 1.5;
@@ -36,9 +37,9 @@ body{
 .signup{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 90%;
-    gap: 1.5rem;
+    width: 90%;
+    height: 100%;
+    gap: 1rem;
     padding-right: 170px;
     padding-left: 0px;
     text-align: center;
@@ -56,64 +57,63 @@ body{
     color: hsl(0, 100%, 74%);
     height: 100%;
     gap: 1rem;
-    padding: 1.5rem;
+    padding: 50px 10px 30px 10px;
+}
+input[type=submit]{
+width: 90%;
+color: white;
+background-color: hsl(135, 86%, 28%);
+text-transform: uppercase;
+box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
 }
 
-.input-box{
-width: 350px;
-position: relative;
-font: 1em sans-serif;
-text-align: left;
-padding-left: 30px;
-}
 
-.input-box > input {
-    font-weight:  500;
-    font-size: .875rem;
-    letter-spacing: .25px;
-
-    padding-inline: 19.4px 0;
-    padding-block: 15px;
-    border: 1px solid  hsl(0, 100%, 74%);
-    border-radius: 5px;
+input {
+    border: 1px solid rgb(207, 203, 203);
+    margin-bottom: 30px;
+    height: 40px;
     width: 90%;
-}
-
-input[type="submit"] {
-    border: none;
-    background-color:  hsl(154, 59%, 51%);
-    text-transform: uppercase;
+   
+    line-height: 1.7;
     letter-spacing: 1px;
     font-weight:  600;
-    font-size: .9375rem;
+    font-size: 12px;
     color: #f3f1f1;
-    padding: 15px 100px;
-    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    padding: 5px 10px;
+    
     border-radius: 10px;
 }
 
-@media (min-width: 75em) {
+
+@media (max-width: 700px) {
     body {
-        background: url('./images/bg-intro-desktop.png')hsl(0, 100%, 74%);
+        background-image: linear-gradient(10deg, rgba(228, 54, 54, 0.5)) url('images/bgmobile.jpg')rgba(231, 125, 83, 0.2);
         background-size: cover;
     }
     .container {
         display: flex;
-        max-width: 1100px;
+        flex-direction: column;
+        max-width: 100%;
         gap: 4rem;
+        justify-content: center;
+        padding: 10%;
     }
 
     .Head-line {
         flex-basis: 50%;
         align-self: center;
-        text-align: start;
+        text-align: center;
+        padding-right: 5%;
+        padding-left: 10%;
         gap: 2.125rem;
     }
 
     
 
     .signup > form {
-        padding: 2.5rem;
+        position: relative;
+        place-self: center;
+        padding: 10%;
     }
 
     .h1 {
